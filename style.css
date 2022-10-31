@@ -1,0 +1,24 @@
+.tab, .all {
+    display: flex; margin: 20px 0;
+}
+.tab-btn {
+    margin: 0 20px 0 0;cursor:pointer;
+}
+.content-text {
+    padding: 20px;border: 1px solid #ccc;
+}
+.hide {
+    display: none;
+}
+.show {
+    display: block;
+}
+.active {
+    color: #ff0000;
+}
+.fade {
+    animation-name:fade;animation-duration: 1s;animation-direction: normal;animation-timing-function: linear;
+}
+@keyframes fade {
+    from{opacity: 0.1;}to{opacity: 1;}
+}
